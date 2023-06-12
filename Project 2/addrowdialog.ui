@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddRowDialog</class>
+ <widget class="QDialog" name="AddRowDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,1">
+   <item>
+    <widget class="QLabel" name="textLabel">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Add new entry</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="RankLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rank:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="nameLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="yearLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Year:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="genreLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Genre:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="locationLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Platform:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QComboBox" name="genreCB">
+         <item>
+          <property name="text">
+           <string>Adventure</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Racing</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Shooter</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Action</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sports</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Misc</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Role-Playing</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Puzzle</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fighting</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Strategy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Simulation</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="nameLine"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QSpinBox" name="yearSpinB">
+         <property name="minimum">
+          <number>1885</number>
+         </property>
+         <property name="maximum">
+          <number>2024</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QComboBox" name="locationLine">
+         <item>
+          <property name="text">
+           <string>DS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GBA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PS4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wii</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>XB</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PS2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>X360</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>XB</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SAT</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3DS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PS2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Other</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QSpinBox" name="spinBox"/>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AddRowDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AddRowDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
