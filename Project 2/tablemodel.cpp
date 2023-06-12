@@ -3,7 +3,7 @@
 
 TableModel::~TableModel()
 {
-    QFile inputFile("/Users/irinaproskurakova/Desktop/vgsales.csv");
+    QFile inputFile("vgsales.csv");
     inputFile.open(QFile::WriteOnly | QFile::Text);
     QTextStream inputStream(&inputFile);
 
@@ -21,7 +21,7 @@ TableModel::~TableModel()
 TableModel::TableModel(QObject *parent)
     : QAbstractTableModel(parent)
 {
-    QFile inputFile("/Users/irinaproskurakova/Desktop/vgsales.csv");
+    QFile inputFile("vgsales.csv");
     inputFile.open(QFile::ReadOnly | QFile::Text);
     QTextStream inputStream(&inputFile);
 
